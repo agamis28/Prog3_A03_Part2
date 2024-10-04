@@ -10,6 +10,8 @@ TEST_CASE("cleans_the_number", "[79666dce-e0f1-46de-95a1-563802913c35]") {
             phone_number::phone_number("(223) 456-7890").number());
 }
 
+#define EXERCISM_RUN_ALL_TESTS
+
 #if defined(EXERCISM_RUN_ALL_TESTS)
 
 TEST_CASE("cleans_numbers_with_dots",

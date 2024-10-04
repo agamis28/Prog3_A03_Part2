@@ -2,6 +2,7 @@
 #define PHONE_NUMBER_H
 #include <string>
 #include <algorithm>
+#include <iostream>
 
 namespace phone_number {
 	class phone_number {
@@ -9,7 +10,7 @@ namespace phone_number {
 	public:
 		phone_number(std::string);
 
-		long number() const;
+		std::string number() const;
 	};
 }  // namespace phone_number
 
